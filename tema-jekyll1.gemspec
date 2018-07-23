@@ -3,8 +3,8 @@
 Gem::Specification.new do |spec|
   spec.name          = "tema-jekyll1"
   spec.version       = "0.1.0"
-  spec.authors       = ["profe-ascendia"]
-  spec.email         = ["ascendia.teosanchez@gmail.com"]
+  spec.authors       = ["AlberMiau"]
+  spec.email         = ["ascendia.ascendia@gmail.com"]
 
   spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
