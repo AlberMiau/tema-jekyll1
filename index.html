@@ -11,9 +11,14 @@ layout: page
 </div>
 {% endfor %}
 <form method="POST" action="https://formspree.io/ascendia.alberto@gmail.com">
-  <input type="email" name="email" placeholder="Tu Email">
-  <textarea name="message" placeholder="Escribete algo"></textarea>
-  <button type="submit">Enviar</button>
+	<input type="hidden" name="_language" value="es" />
+	<input type="hidden" name="_next" value="{{site.title}}" />
+	<label for="nombre">Nombre</label>
+	<input type="text" name="nombre" placeholder="Nombre">
+	<input type="email" name="_replyto" placeholder="Tu Email">
+	<!--<input type="email" name="email" placeholder="Tu Email">-->
+	<textarea name="message" placeholder="Escribete algo"></textarea>
+	<button type="submit">Enviar</button>
 </form>
 
 </div>
